@@ -14,7 +14,7 @@ const Header = () => {
       .filter(Boolean) // удаляем пустые
       .map((part) => decodeURIComponent(part));
 
-    const crumbs = ["IoT Dashboard", ...parts];
+    const crumbs = ["IoT Devices", ...parts];
 
     if (pathname.startsWith("/events/current") && room) {
       room

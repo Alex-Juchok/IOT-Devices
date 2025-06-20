@@ -5,7 +5,7 @@ import bcrypt from "bcrypt";
 
 
 const DevicesLogicPlugin: Plugin = {
-  name: "UserLogicPlugin",
+  name: "DevicesLogicPlugin",
 
   async load(app: App) {
     const db = (app as any).db;

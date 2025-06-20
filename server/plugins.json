@@ -14,7 +14,7 @@
       },
         "kafka": {
         "path": "./src/plugins/kafka/src",
-        "enabled": true
+        "enabled": false
       },
       "auth": {
         "path": "./src/plugins/auth",
@@ -26,6 +26,10 @@
       },
       "device-logic": {
         "path": "./src/plugins/devices-logic",
+        "enabled": true
+      },
+      "events-logic": {
+        "path": "./src/plugins/events-logic",
         "enabled": true
       }
     }
