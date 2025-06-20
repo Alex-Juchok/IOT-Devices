@@ -1,0 +1,33 @@
+{
+    "plugins": {
+      "hello": {
+        "path": "./src/plugins/helloPlagin/dist/hello",
+        "enabled": false
+      },
+      "DBPlugin": {
+        "path": "./src/plugins/postgressDB/src",
+        "enabled": true
+      },
+      "socket": {
+        "path": "./src/plugins/socket",
+        "enabled": true
+      },
+        "kafka": {
+        "path": "./src/plugins/kafka/src",
+        "enabled": true
+      },
+      "auth": {
+        "path": "./src/plugins/auth",
+        "enabled": true
+      },
+      "user-logic": {
+        "path": "./src/plugins/user-logic",
+        "enabled": true
+      },
+      "device-logic": {
+        "path": "./src/plugins/devices-logic",
+        "enabled": true
+      }
+    }
+  }
+  
